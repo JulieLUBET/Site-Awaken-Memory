@@ -1,0 +1,192 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+* {
+    font-family: 'Montserrat';
+    
+}
+
+html 
+{
+    scroll-behavior: smooth;
+}
+
+body 
+{
+    margin: 0 auto;
+    background-color: black;
+}
+
+/* tete de page */
+
+header.header 
+{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+
+header.header img 
+{
+    width: 400px;
+}
+
+section.top-page 
+{
+    background: url('../images/background.jpg');
+    background-size: cover;
+    height: 10vh;
+    padding: 25px;
+}
+
+
+/* menu de navigation */
+
+nav.nav 
+{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 800px;
+    margin-left: 150px;
+}
+
+nav.nav li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+#page-actu
+{
+    color: yellow;
+    text-decoration: none;
+}
+
+
+/* page de bienvenue (landing page) */
+
+.big-title
+{
+    color: white;
+    font-size: 80px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+#big-title 
+{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+#fd
+{
+   display: block;
+   width: 80%;
+   margin: auto;
+}
+
+#video
+{
+    width: 1000px;
+    display: block;
+    margin: auto;
+}
+
+.scroll-down 
+{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.titre_jaune
+{
+    color: yellow;
+    margin-left: 40px;
+}
+
+nav.point li a
+{
+    color: white;
+    margin-left: 40px;
+}
+
+a
+{
+    color: white;
+}
+
+h4
+{
+    color: white;
+    margin-left: 80px;
+}
+
+h4 a
+{
+    color: white;
+}
+/* presentation a propos */
+
+.titre_h2
+{
+    color: yellow;
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.info
+{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.paragraphe
+{
+    color: white;
+    font-size: 25px;    
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px
+}
+
+.source
+{
+    text-align: center;
+}
+
+.sources
+{
+    color: white;
+    margin: 40px;
+    size: 150px;
+}
+
+/* services */
+
+.services 
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.service-item 
+{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
